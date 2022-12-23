@@ -633,6 +633,8 @@ input[type="tel"]::placeholder {
   .project-info__img {
     max-width: 745px;
     width: 100%; }
+    .project-info__img img {
+      border-radius: 6px; }
   .project-info__options {
     min-width: 546px;
     width: 546px;
@@ -1995,7 +1997,8 @@ section .title-icon {
   padding-right: 10px; }
 
 img.alignleft, img.alignright {
-  max-width: 49%; }
+  max-width: 49%;
+  border-radius: 6px; }
 
 img.alignleft {
   margin: 12px 28px 28px 0;
@@ -2006,6 +2009,7 @@ img.alignright {
   float: right; }
 
 img.aligncenter {
+  border-radius: 6px;
   display: block;
   margin-left: auto;
   margin-right: auto;
